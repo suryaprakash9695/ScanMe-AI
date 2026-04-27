@@ -306,7 +306,17 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-white/10 py-8 text-center text-gray-500 text-sm">
-        <p>© 2024 ScanMe AI — Built for developers, by developers 🚀</p>
+        <p>
+          © 2026 ScanMe AI — Designed & Developed by{' '}
+          <a
+            href="https://teamtechpro.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-blue-300 transition-colors font-medium"
+          >
+            Team TechPro
+          </a>
+        </p>
       </footer>
     </div>
   )
