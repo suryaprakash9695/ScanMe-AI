@@ -177,28 +177,6 @@ Full interactive docs at `/docs` (Swagger UI).
 
 ---
 
-## Deployment
-
-### Frontend → Vercel
-
-```bash
-npm run build
-vercel --prod
-```
-
-Or connect the repo in the Vercel dashboard — framework preset: **Vite**, output dir: `dist`.
-
-### Backend → Render
-
-1. New Web Service → connect repo → set root to `backend/`
-2. Build command: `pip install -r requirements.txt`
-3. Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-4. Add env var: `ALLOWED_ORIGINS=https://your-frontend.vercel.app`
-
-After deploying, set `VITE_API_URL` in Vercel to your Render backend URL.
-
----
-
 ## Environment Variables
 
 **Frontend** (`.env`):
