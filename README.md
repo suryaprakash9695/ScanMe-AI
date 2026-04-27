@@ -4,15 +4,6 @@
 
 An AI-powered full-stack web app that evaluates a developer's complete online coding presence across 8+ platforms and generates a recruiter-ready score report — no login required.
 
----
-
-## Live Demo
-
-| Service  | URL |
-|----------|-----|
-| Frontend | http://localhost:3000 |
-| Backend  | http://localhost:8000 |
-| API Docs | http://localhost:8000/docs |
 
 ---
 
@@ -177,21 +168,6 @@ Full interactive docs at `/docs` (Swagger UI).
 
 ---
 
-## Environment Variables
-
-**Frontend** (`.env`):
-```env
-VITE_API_URL=http://localhost:8000
-```
-
-**Backend** (`.env`):
-```env
-PORT=8000
-ALLOWED_ORIGINS=http://localhost:3000
-```
-
----
-
 ## Security
 
 - No login, no database — all data is in-memory and discarded after the session
@@ -207,5 +183,3 @@ ALLOWED_ORIGINS=http://localhost:3000
 MIT — see [LICENSE](LICENSE).
 
 ---
-
-*Built for final year projects, internships, and campus placements* 🎓
